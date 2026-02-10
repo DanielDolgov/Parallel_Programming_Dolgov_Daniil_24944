@@ -7,26 +7,24 @@
 Работа в терминале, из папки задания
 
 ### Генерация
-- Генерация по умолчанию (FLOAT)
+- По умолчанию (FLOAT)
 ```bash
 cmake -S . -B build
 ```
-- Генерация с выбором FLOAT
+- С выбором FLOAT
 ```bash
 cmake -S . -B build -DFLOAT=ON
 ```
-- Генерация с выбором DOUBLE
+- С выбором DOUBLE
 ```bash
 cmake -S . -B build -DDOUBLE=ON
 ```
 
 ### Сборка
-- Сборка
 ```bash
 cmake --build build
 ```
 ### Запуск
-- Запуск
 ```bash
 ./build/out
 ```
