@@ -6,20 +6,22 @@
 ## Использование
 Работа в терминале, из папки задания
 
+
 <!-- -->
 
 - Генерация по умолчанию (FLOAT)
 ```bash
 cmake -S . -B build
 ```
-> Генерация с выбором FLOAT
-> ```bash
-> cmake -S . -B build -DFLOAT=ON
-> ```
-> Генерация с выбором DOUBLE
+- Генерация с выбором FLOAT
+```bash
+cmake -S . -B build -DFLOAT=ON
+```
+- Генерация с выбором DOUBLE
 ```bash
 cmake -S . -B build -DDOUBLE=ON
 ```
+
 
 <!-- -->
 
@@ -27,6 +29,7 @@ cmake -S . -B build -DDOUBLE=ON
 ```bash
 cmake --build build
 ```
+
 
 <!-- -->
 
