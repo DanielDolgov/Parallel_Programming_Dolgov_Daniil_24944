@@ -6,14 +6,15 @@
 ## Использование
 Работа в терминале, из папки задания
 
-Генерация по умолчанию (FLOAT)
-```bash
-cmake -S . -B build
-```
-Генерация с выбором FLOAT
-```bash
-cmake -S . -B build -DFLOAT=ON
-```
+
+> Генерация по умолчанию (FLOAT)
+> ```bash
+> cmake -S . -B build
+> ```
+- Генерация с выбором FLOAT
+- ```bash
+- cmake -S . -B build -DFLOAT=ON
+- ```
 Генерация с выбором DOUBLE
 ```bash
 cmake -S . -B build -DDOUBLE=ON
@@ -31,4 +32,5 @@ cmake --build build
 
 ## Выводы
 Сумма float: -0.0277862
+
 Сумма double: 4.89582e-11
