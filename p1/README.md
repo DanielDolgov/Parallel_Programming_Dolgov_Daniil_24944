@@ -8,10 +8,13 @@
 
 Генерация по умолчанию (FLOAT)
 ```cmake -S . -B build```
+
 Генерация с выбором FLOAT
 ```cmake -S . -B build -DFLOAT=ON```
+
 Генерация с выбором DOUBLE
 ```cmake -S . -B build -DDOUBLE=ON```
+
 
 Сборка
 ```cmake --build build```
